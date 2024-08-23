@@ -9,7 +9,7 @@ export const getArsenalFixturesForCurrentSeason = async () => {
             }
         }
 
-        const res = await axios.get(`https://api-football-v1.p.rapidapi.com/v3/fixtures?season=2023&team=42`, rapidApiHeaders);
+        const res = await axios.get(`https://api-football-v1.p.rapidapi.com/v3/fixtures?season=2024&team=42`, rapidApiHeaders);
 
         return res.data.response;
 
